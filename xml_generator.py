@@ -4,7 +4,7 @@ from lxml import etree
 import xml.etree.cElementTree as ET
 
 
-def write_xml(folder, img, objects, tk, br, savedir, extension):
+def write_xml(folder, img, objects, tl, br, savedir, extension):
     if not os.path.isdir(savedir):
         os.mkdir(savedir)
 

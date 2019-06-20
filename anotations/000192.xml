@@ -1,0 +1,22 @@
+<annotation>
+  <folder>/home/pyrop/Documents/YOLO/IMAGES</folder>
+  <filename>000192.jpg</filename>
+  <segmented>0</segmented>
+  <size>
+    <width>600</width>
+    <height>532</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>fidget_spinner</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficulty>0</difficulty>
+    <bndbox>
+      <xmin>15</xmin>
+      <ymax>14</ymax>
+      <xmin>571</xmin>
+      <ymax>513</ymax>
+    </bndbox>
+  </object>
+</annotation>

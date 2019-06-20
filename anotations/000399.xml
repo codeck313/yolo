@@ -1,0 +1,10 @@
+<annotation>
+  <folder>/home/pyrop/Documents/YOLO/IMAGES</folder>
+  <filename>000399.jpg</filename>
+  <segmented>0</segmented>
+  <size>
+    <width>1880</width>
+    <height>940</height>
+    <depth>3</depth>
+  </size>
+</annotation>
