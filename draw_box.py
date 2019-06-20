@@ -2,7 +2,7 @@ import os
 import matplotlib.pyplot as plt
 import cv2
 from matplotlib.widgets import RectangleSelector
-from generate_xml import writexml
+from xml_generator import writexml
 
 img = None
 tl_list = []  # tl mouse click
