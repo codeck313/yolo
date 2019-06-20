@@ -1,0 +1,17 @@
+.vscode
+bin
+build
+cfg
+ckpt
+darkflow
+sample_img
+test
+flow
+labels.txt
+LICENSE
+setup.py
+*.avi
+*.mp4
+*.jpg
+*.jpeg
+*.md
