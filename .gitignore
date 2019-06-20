@@ -17,3 +17,4 @@ setup.py
 *.md
 fidget_spinner
 *_imggrab
+__pycache__
