@@ -11,36 +11,36 @@
     <name>fidget_spinner</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficulty>0</difficulty>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>50</xmin>
+      <ymin>3</ymin>
+      <xmax>168</xmax>
+      <ymax>113</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>fidget_spinner</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>29</xmin>
-      <ymax>2</ymax>
-      <xmin>170</xmin>
-      <ymax>115</ymax>
+      <ymin>133</ymin>
+      <xmax>165</xmax>
+      <ymax>266</ymax>
     </bndbox>
   </object>
   <object>
     <name>fidget_spinner</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficulty>0</difficulty>
+    <difficult>0</difficult>
     <bndbox>
-      <xmin>27</xmin>
-      <ymax>139</ymax>
-      <xmin>175</xmin>
-      <ymax>267</ymax>
-    </bndbox>
-  </object>
-  <object>
-    <name>fidget_spinner</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficulty>0</difficulty>
-    <bndbox>
-      <xmin>150</xmin>
-      <ymax>80</ymax>
-      <xmin>274</xmin>
-      <ymax>208</ymax>
+      <xmin>152</xmin>
+      <ymin>65</ymin>
+      <xmax>274</xmax>
+      <ymax>210</ymax>
     </bndbox>
   </object>
 </annotation>

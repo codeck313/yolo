@@ -11,12 +11,12 @@
     <name>fidget_spinner</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficulty>0</difficulty>
+    <difficult>0</difficult>
     <bndbox>
-      <xmin>14</xmin>
-      <ymax>24</ymax>
-      <xmin>488</xmin>
-      <ymax>477</ymax>
+      <xmin>15</xmin>
+      <ymin>21</ymin>
+      <xmax>491</xmax>
+      <ymax>446</ymax>
     </bndbox>
   </object>
 </annotation>

@@ -7,4 +7,16 @@
     <height>384</height>
     <depth>3</depth>
   </size>
+  <object>
+    <name>fidget_spinner</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>17</xmin>
+      <ymin>24</ymin>
+      <xmax>376</xmax>
+      <ymax>360</ymax>
+    </bndbox>
+  </object>
 </annotation>

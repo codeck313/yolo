@@ -19,17 +19,16 @@ def write_xml(folder, img, objects, tl, br, savedir, extension):
     ET.SubElement(size, 'width').text = str(width)
     ET.SubElement(size, 'height').text = str(height)
     ET.SubElement(size, 'depth').text = str(depth)
-
     for obj, topl, botr in zip(objects, tl, br):
         ob = ET.SubElement(annotation, 'object')
         ET.SubElement(ob, 'name').text = obj
         ET.SubElement(ob, 'pose').text = 'Unspecified'
         ET.SubElement(ob, 'truncated').text = '0'
-        ET.SubElement(ob, 'difficulty').text = '0'
+        ET.SubElement(ob, 'difficult').text = '0'
         bbox = ET.SubElement(ob, 'bndbox')
         ET.SubElement(bbox, 'xmin').text = str(topl[0])
-        ET.SubElement(bbox, 'ymax').text = str(topl[1])
-        ET.SubElement(bbox, 'xmin').text = str(botr[0])
+        ET.SubElement(bbox, 'ymin').text = str(topl[1])
+        ET.SubElement(bbox, 'xmax').text = str(botr[0])
         ET.SubElement(bbox, 'ymax').text = str(botr[1])
 
     xml_str = ET.tostring(annotation)

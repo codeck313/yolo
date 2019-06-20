@@ -10,10 +10,10 @@ tl_list = []  # tl mouse click
 br_list = []  # br mouse click
 object_list = []
 
-image_folder = '/home/pyrop/Documents/YOLO/IMAGES'
-savedir = 'anotations'
+image_folder = '/home/pyrop/Documents/YOLO/IMAGES_JPEG'
+savedir = 'anotations_jpeg'
 obj = 'fidget_spinner'
-extension = 'jpg'
+extension = 'jpeg'
 
 
 def lines_select_callback(clk, rls):
@@ -32,8 +32,10 @@ def onKeyPress(event):
     global br_list
     global img
     if event.key == 'q':
-        write_xml(image_folder, img, object_list,
-                  tl_list, br_list, savedir, extension)
+        if tl_list != [] and br_list != []:
+            print("Saving")
+            write_xml(image_folder, img, object_list,
+                      tl_list, br_list, savedir, extension)
         tl_list = []
         br_list = []
         object_list = []
@@ -70,4 +72,8 @@ if __name__ == '__main__':
 
         except:
             print("Error Occured in image", img.name)
+            tl_list = []
+            br_list = []
+            object_list = []
+            img = None
             pass

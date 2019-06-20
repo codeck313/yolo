@@ -11,60 +11,72 @@
     <name>fidget_spinner</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficulty>0</difficulty>
-    <bndbox>
-      <xmin>24</xmin>
-      <ymax>302</ymax>
-      <xmin>372</xmin>
-      <ymax>620</ymax>
-    </bndbox>
-  </object>
-  <object>
-    <name>fidget_spinner</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficulty>0</difficulty>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>417</xmin>
-      <ymax>140</ymax>
-      <xmin>752</xmin>
-      <ymax>370</ymax>
+      <ymin>114</ymin>
+      <xmax>855</xmax>
+      <ymax>383</ymax>
     </bndbox>
   </object>
   <object>
     <name>fidget_spinner</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficulty>0</difficulty>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>401</xmin>
+      <ymin>114</ymin>
+      <xmax>855</xmax>
+      <ymax>383</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>fidget_spinner</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>31</xmin>
+      <ymin>293</ymin>
+      <xmax>420</xmax>
+      <ymax>617</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>fidget_spinner</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>787</xmin>
-      <ymax>286</ymax>
-      <xmin>1196</xmin>
-      <ymax>607</ymax>
+      <ymin>263</ymin>
+      <xmax>1196</xmax>
+      <ymax>643</ymax>
     </bndbox>
   </object>
   <object>
     <name>fidget_spinner</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficulty>0</difficulty>
+    <difficult>0</difficult>
     <bndbox>
-      <xmin>398</xmin>
-      <ymax>400</ymax>
-      <xmin>839</xmin>
-      <ymax>666</ymax>
+      <xmin>427</xmin>
+      <ymin>377</ymin>
+      <xmax>820</xmax>
+      <ymax>698</ymax>
     </bndbox>
   </object>
   <object>
     <name>fidget_spinner</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficulty>0</difficulty>
+    <difficult>0</difficult>
     <bndbox>
-      <xmin>443</xmin>
-      <ymax>689</ymax>
-      <xmin>937</xmin>
-      <ymax>994</ymax>
+      <xmin>355</xmin>
+      <ymin>640</ymin>
+      <xmax>946</xmax>
+      <ymax>1004</ymax>
     </bndbox>
   </object>
 </annotation>

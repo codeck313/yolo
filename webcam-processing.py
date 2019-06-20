@@ -4,9 +4,9 @@ import numpy as np
 import time
 
 option = {
-    "model": "/home/pyrop/Documents/YOLO/cfg/yolo.cfg",
-    "load": "/home/pyrop/Documents/YOLO/bin/yolov2.weights",
-    "threshold": 0.4,
+    "model": "/home/pyrop/Documents/YOLO/cfg/yolov2-tiny-voc-1c.cfg",
+    "load": 1000,
+    "threshold": 0.1,
     "gpu": 1.0,
 }
 
@@ -34,14 +34,14 @@ while True:
             br = result["bottomright"]["x"], result["bottomright"]["y"]
             label = result["label"]
             confidence = result["confidence"]
-            fps_string = str(round(fps))
+            fps_string = str(round(fps))+" FPS_YOLO"
             text = '{}: {:.0f}%'.format(label, (confidence*100))
             frame = cv2.rectangle(frame, tl, br, color, 5)
             frame = cv2.putText(
                 frame, text, tl, cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 0), 2
             )
             frame = cv2.putText(
-                frame, fps_string, (10, 20), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 0, 0), 2)
+                frame, fps_string, (10, 30), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 255, 0), 2)
         cv2.imshow('Webcam-Procesing', frame)
         print('FPS {:.1f}'.format(fps))
         if cv2.waitKey(1) & 0xFF == ord("q"):

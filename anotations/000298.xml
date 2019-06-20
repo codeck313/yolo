@@ -11,84 +11,36 @@
     <name>fidget_spinner</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficulty>0</difficulty>
+    <difficult>0</difficult>
     <bndbox>
-      <xmin>40</xmin>
-      <ymax>27</ymax>
-      <xmin>221</xmin>
-      <ymax>170</ymax>
+      <xmin>45</xmin>
+      <ymin>27</ymin>
+      <xmax>214</xmax>
+      <ymax>181</ymax>
     </bndbox>
   </object>
   <object>
     <name>fidget_spinner</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficulty>0</difficulty>
+    <difficult>0</difficult>
     <bndbox>
-      <xmin>52</xmin>
-      <ymax>303</ymax>
-      <xmin>197</xmin>
-      <ymax>465</ymax>
+      <xmin>299</xmin>
+      <ymin>167</ymin>
+      <xmax>459</xmax>
+      <ymax>310</ymax>
     </bndbox>
   </object>
   <object>
     <name>fidget_spinner</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficulty>0</difficulty>
+    <difficult>0</difficult>
     <bndbox>
-      <xmin>156</xmin>
-      <ymax>172</ymax>
-      <xmin>296</xmin>
-      <ymax>302</ymax>
-    </bndbox>
-  </object>
-  <object>
-    <name>fidget_spinner</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficulty>0</difficulty>
-    <bndbox>
-      <xmin>235</xmin>
-      <ymax>5</ymax>
-      <xmin>400</xmin>
-      <ymax>170</ymax>
-    </bndbox>
-  </object>
-  <object>
-    <name>fidget_spinner</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficulty>0</difficulty>
-    <bndbox>
-      <xmin>233</xmin>
-      <ymax>320</ymax>
-      <xmin>381</xmin>
-      <ymax>440</ymax>
-    </bndbox>
-  </object>
-  <object>
-    <name>fidget_spinner</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficulty>0</difficulty>
-    <bndbox>
-      <xmin>19</xmin>
-      <ymax>158</ymax>
-      <xmin>144</xmin>
-      <ymax>301</ymax>
-    </bndbox>
-  </object>
-  <object>
-    <name>fidget_spinner</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficulty>0</difficulty>
-    <bndbox>
-      <xmin>287</xmin>
-      <ymax>166</ymax>
-      <xmin>464</xmin>
-      <ymax>320</ymax>
+      <xmin>219</xmin>
+      <ymin>321</ymin>
+      <xmax>401</xmax>
+      <ymax>445</ymax>
     </bndbox>
   </object>
 </annotation>

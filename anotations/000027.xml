@@ -11,72 +11,24 @@
     <name>fidget_spinner</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficulty>0</difficulty>
+    <difficult>0</difficult>
     <bndbox>
-      <xmin>47</xmin>
-      <ymax>102</ymax>
-      <xmin>220</xmin>
-      <ymax>322</ymax>
+      <xmin>52</xmin>
+      <ymin>100</ymin>
+      <xmax>215</xmax>
+      <ymax>306</ymax>
     </bndbox>
   </object>
   <object>
     <name>fidget_spinner</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficulty>0</difficulty>
+    <difficult>0</difficult>
     <bndbox>
-      <xmin>381</xmin>
-      <ymax>294</ymax>
-      <xmin>577</xmin>
-      <ymax>488</ymax>
-    </bndbox>
-  </object>
-  <object>
-    <name>fidget_spinner</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficulty>0</difficulty>
-    <bndbox>
-      <xmin>239</xmin>
-      <ymax>45</ymax>
-      <xmin>447</xmin>
-      <ymax>220</ymax>
-    </bndbox>
-  </object>
-  <object>
-    <name>fidget_spinner</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficulty>0</difficulty>
-    <bndbox>
-      <xmin>59</xmin>
-      <ymax>303</ymax>
-      <xmin>236</xmin>
-      <ymax>493</ymax>
-    </bndbox>
-  </object>
-  <object>
-    <name>fidget_spinner</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficulty>0</difficulty>
-    <bndbox>
-      <xmin>426</xmin>
-      <ymax>123</ymax>
-      <xmin>620</xmin>
-      <ymax>348</ymax>
-    </bndbox>
-  </object>
-  <object>
-    <name>fidget_spinner</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficulty>0</difficulty>
-    <bndbox>
-      <xmin>201</xmin>
-      <ymax>353</ymax>
-      <xmin>426</xmin>
-      <ymax>554</ymax>
+      <xmin>407</xmin>
+      <ymin>131</ymin>
+      <xmax>605</xmax>
+      <ymax>325</ymax>
     </bndbox>
   </object>
 </annotation>
